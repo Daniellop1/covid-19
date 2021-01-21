@@ -105,8 +105,7 @@ class Home extends React.Component {
         <React.Fragment>
           <Navbar query={this.state.query} onChange={this.handleChange} />
           <div className="home">
-            <h3>COVID-19 countries list</h3>
-            <p className="message">country "{this.state.query}" not found 😢.</p>
+            <p className="message">Country "{this.state.query}" not found 😢</p>
           </div>
         </React.Fragment>
       );
