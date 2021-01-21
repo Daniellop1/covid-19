@@ -72,7 +72,6 @@ class Home extends React.Component {
         <React.Fragment>
           <Navbar />
           <div className="home">
-            <h3>COVID-19 countries list</h3>
             <Loader />
           </div>
         </React.Fragment>
@@ -83,7 +82,6 @@ class Home extends React.Component {
         <React.Fragment>
           <Navbar query={this.state.query} onChange={this.handleChange} />
           <div className="home">
-            <h3>COVID-19 countries list</h3>
             <h2>Error</h2>
           </div>
         </React.Fragment>
@@ -94,7 +92,6 @@ class Home extends React.Component {
         <React.Fragment>
           <Navbar query={this.state.query} onChange={this.handleChange} />
           <div className="home">
-            <h3>COVID-19 countries list</h3>
             <CardsList query={this.state.query} countries={this.state.filteredCountries} />
           </div>
         </React.Fragment>
@@ -114,7 +111,6 @@ class Home extends React.Component {
       <React.Fragment>
         <Navbar query={this.state.query} onChange={this.handleChange} />
         <div className="home">
-          <h3>COVID-19 countries list</h3>
           <CardsList query={this.state.query} countries={this.state.countries} />
         </div>
       </React.Fragment>
